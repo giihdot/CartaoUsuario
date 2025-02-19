@@ -9,17 +9,12 @@ import Imagem_3 from "./assets/Julia_Img.jpeg";
 import Imagem_4 from "./assets/Kamilly_Img.jpeg";
 import Email from "./assets/Email_Img.jpeg";
 import Insta from "./assets/Insta_Img.jpeg";
-<<<<<<< HEAD
 import Logo from "./assets/Logo_Img.jpg"
-import Seguir from "./Components/Botao";
-=======
-import Logo from "./assets/Logo_Img.jpg";
->>>>>>> e8a3eaff9abe4bc3d2f4732a0b9153883ed87c1c
 
 function App() {
   return (
     <>
-      <Titulo titulo="DESAFIO - PROPS REACT" imagem={Logo} />
+      <Titulo titulo="DESAFIO - PROPS REACT" imagem={Logo}/>
 
       <div className="Junt1">
         <div className="Lateral">
@@ -29,13 +24,12 @@ function App() {
                 user="Giovanna Ferreira"
                 img={Imagem_1}
                 texto="giovanna ☾
-                      Ele tem um plano, e você um propósito.
+                       Ele tem um plano, e você um propósito.
                        Romanos 8:28 🇻🇦"
               />
-              <Seguir/>
-            </div> 
+            </div>
           </div>
-          
+
           <div className="Agrupar">
             <div className="Junt2">
               <Perfil
@@ -47,7 +41,6 @@ function App() {
                        God is good all the time ✝️🤍
                        💍."
               />
-              <Seguir/>
             </div>
           </div>
 
@@ -56,20 +49,9 @@ function App() {
               <Perfil
                 user="Julia Piazzoli"
                 img={Imagem_3}
-<<<<<<< HEAD
-                texto="Hobby: Academia, Pilates..."
-              />
-              <Seguir/>
-=======
                 texto="Julia Piazzoli
                        2007 | Valinhos, SP
-<<<<<<< HEAD
                        👑 • 🍸 • 🪐"/>
->>>>>>> 848efdacb571b13becfbccd8451181f8bdf1b904
-=======
-                       👑 • 🍸 • 🪐"
-              />
->>>>>>> e8a3eaff9abe4bc3d2f4732a0b9153883ed87c1c
             </div>
           </div>
 
@@ -83,7 +65,6 @@ function App() {
                        Louveira | SP
                        "
               />
-              <Seguir/>
             </div>
           </div>
         </div>
@@ -101,20 +82,22 @@ function App() {
         </div>
       </div>
 
-      <br />
-      <br />
-      <br />
-      <br />
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 
       <div className="Footer">
-        <Footer
-          logo={Email}
-          email="giovanna.ferreira31@senaisp.edu.br"
-          icone={Insta}
-          insta="@giihdot"
-          texto=" A confecção e desenvolvimento do site foi realizada por todas as integrantes do grupo!"
-        />
+      <Footer
+        logo={Email}
+        email="giovanna.ferreira31@senaisp.edu.br"
+        icone={Insta}
+        insta="@giihdot"  
+        texto=" A confecção e desenvolvimento do site foi realizada por todas as integrantes do grupo!"
+      />
       </div>
+
+      
     </>
   );
 }
