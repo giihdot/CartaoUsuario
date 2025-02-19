@@ -18,21 +18,21 @@ button {
 }
 
 .curtido {
-    background-color: green; 
+    background-color: rgb(172, 32, 139); 
     color: white;
 }
 
 .nao-curtido {
-    background-color: lightgray;
-    color: black;
+    background-color: #0106329c;
+    color: rgb(255, 255, 255);
 }
 
 .seguindo {
-    background-color: blue; /* Altere para a cor desejada quando estiver seguindo */
+    background-color: #0106329c; /* Altere para a cor desejada quando estiver seguindo */
     color: white;
 }
 
 .nao-seguindo {
-    background-color: lightgray;
-    color: black;
+    background-color: rgba(172, 32, 139, 0.636);
+    color: rgb(255, 255, 255);
 }

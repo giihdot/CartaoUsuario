@@ -7,7 +7,7 @@ function Seguir() {
 
     // Função para lidar com o clique no botão de curtida
     function CliqueSeguir() {
-        setCurtido(true); // Marca o botão como curtido
+        setCurtido(!curtido); // Marca o botão como curtido
     }
 
     // Botão de seguir
@@ -22,7 +22,7 @@ function Seguir() {
                     onClick={CliqueSeguir} 
                     className={curtido ? "curtido" : "nao-curtido"}
                 >
-                    Curtir
+                    {curtido ? "Liked" : "Like"}
                 </button>
             </div>
             <div className="seguir">
@@ -30,7 +30,7 @@ function Seguir() {
                     onClick={CliqueSeguirUsuario} 
                     className={seguindo ? "seguindo" : "nao-seguindo"}
                 >
-                    {seguindo ? "Seguindo" : "Seguir"}
+                    {seguindo ? "Followed" : "Follow"}
                 </button>
             </div>
         </div>

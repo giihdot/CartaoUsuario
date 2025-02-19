@@ -9,12 +9,13 @@ import Imagem_3 from "./assets/Julia_Img.jpeg";
 import Imagem_4 from "./assets/Kamilly_Img.jpeg";
 import Email from "./assets/Email_Img.jpeg";
 import Insta from "./assets/Insta_Img.jpeg";
-import Logo from "./assets/Logo_Img.jpg"
+import Logo from "./assets/Logo_Img.jpg";
+import Seguir from "./Components/Botao";
 
 function App() {
   return (
     <>
-      <Titulo titulo="DESAFIO - PROPS REACT" imagem={Logo}/>
+      <Titulo titulo="DESAFIO - PROPS REACT" imagem={Logo} />
 
       <div className="Junt1">
         <div className="Lateral">
@@ -27,6 +28,7 @@ function App() {
                        Ele tem um plano, e você um propósito.
                        Romanos 8:28 🇻🇦"
               />
+              <Seguir />
             </div>
           </div>
 
@@ -41,6 +43,7 @@ function App() {
                        God is good all the time ✝️🤍
                        💍."
               />
+              <Seguir />
             </div>
           </div>
 
@@ -51,7 +54,9 @@ function App() {
                 img={Imagem_3}
                 texto="Julia Piazzoli
                        2007 | Valinhos, SP
-                       👑 • 🍸 • 🪐"/>
+                       👑 • 🍸 • 🪐"
+              />
+              <Seguir />
             </div>
           </div>
 
@@ -65,6 +70,7 @@ function App() {
                        Louveira | SP
                        "
               />
+              <Seguir />
             </div>
           </div>
         </div>
@@ -82,22 +88,20 @@ function App() {
         </div>
       </div>
 
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+      <br />
+      <br />
+      <br />
+      <br />
 
       <div className="Footer">
-      <Footer
-        logo={Email}
-        email="giovanna.ferreira31@senaisp.edu.br"
-        icone={Insta}
-        insta="@giihdot"  
-        texto=" A confecção e desenvolvimento do site foi realizada por todas as integrantes do grupo!"
-      />
+        <Footer
+          logo={Email}
+          email="giovanna.ferreira31@senaisp.edu.br"
+          icone={Insta}
+          insta="@giihdot"
+          texto=" A confecção e desenvolvimento do site foi realizada por todas as integrantes do grupo!"
+        />
       </div>
-
-      
     </>
   );
 }
