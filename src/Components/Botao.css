@@ -1,0 +1,38 @@
+.cartao {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px;
+}
+
+.curtir, .seguir {
+    display: flex; 
+    align-items: center; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.curtido {
+    background-color: green; 
+    color: white;
+}
+
+.nao-curtido {
+    background-color: lightgray;
+    color: black;
+}
+
+.seguindo {
+    background-color: blue; /* Altere para a cor desejada quando estiver seguindo */
+    color: white;
+}
+
+.nao-seguindo {
+    background-color: lightgray;
+    color: black;
+}

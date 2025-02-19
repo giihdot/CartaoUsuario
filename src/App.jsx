@@ -10,6 +10,7 @@ import Imagem_4 from "./assets/Kamilly_Img.jpeg";
 import Email from "./assets/Email_Img.jpeg";
 import Insta from "./assets/Insta_Img.jpeg";
 import Logo from "./assets/Logo_Img.jpg"
+import Seguir from "./Components/Botao";
 
 function App() {
   return (
@@ -25,9 +26,10 @@ function App() {
                 img={Imagem_1}
                 texto="Hobby: Dançar, Teatro, Leitura..."
               />
-            </div>
+              <Seguir/>
+            </div> 
           </div>
-
+          
           <div className="Agrupar">
             <div className="Junt2">
               <Perfil
@@ -35,6 +37,7 @@ function App() {
                 img={Imagem_2}
                 texto="Hobby: Cantar, Leitura..."
               />
+              <Seguir/>
             </div>
           </div>
 
@@ -45,6 +48,7 @@ function App() {
                 img={Imagem_3}
                 texto="Hobby: Academia, Pilates..."
               />
+              <Seguir/>
             </div>
           </div>
 
@@ -55,6 +59,7 @@ function App() {
                 img={Imagem_4}
                 texto="Hobby: Cantar, Caminhar..."
               />
+              <Seguir/>
             </div>
           </div>
         </div>
