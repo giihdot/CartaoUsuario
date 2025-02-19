@@ -23,7 +23,9 @@ function App() {
               <Perfil
                 user="Giovanna Ferreira"
                 img={Imagem_1}
-                texto="Hobby: Dançar, Teatro, Leitura..."
+                texto="giovanna ☾
+                       Ele tem um plano, e você um propósito.
+                       Romanos 8:28 🇻🇦"
               />
             </div>
           </div>
@@ -33,7 +35,11 @@ function App() {
               <Perfil
                 user="Maria Clara Duarte"
                 img={Imagem_2}
-                texto="Hobby: Cantar, Leitura..."
+                texto="Clara Duarte
+                       Vinhedo | SP
+                       Cristã ❤‍🔥
+                       God is good all the time ✝️🤍
+                       💍."
               />
             </div>
           </div>
@@ -43,8 +49,9 @@ function App() {
               <Perfil
                 user="Julia Piazzoli"
                 img={Imagem_3}
-                texto="Hobby: Academia, Pilates..."
-              />
+                texto="Julia Piazzoli
+                       2007 | Valinhos, SP
+                       👑 • 🍸 • 🪐"/>
             </div>
           </div>
 
@@ -53,7 +60,10 @@ function App() {
               <Perfil
                 user="Kamilly Barra"
                 img={Imagem_4}
-                texto="Hobby: Cantar, Caminhar..."
+                texto="kamilly barra
+                       Romanos 8:26
+                       Louveira | SP
+                       "
               />
             </div>
           </div>
