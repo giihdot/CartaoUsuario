@@ -71,7 +71,7 @@ function App() {
 
         <div className="Valores">
           <Valores
-            Valor1= "Compromisso: Dedicação e responsabilidade de cada integrante para o sucesso do grupo."
+            Valor1="Compromisso: Dedicação e responsabilidade de cada integrante para o sucesso do grupo."
             Valor2="Responsabilidade: Cada membro assume as consequências de suas ações e contribui ativamente para o grupo."
             Valor3="Proatividade: Agir com iniciativa e buscar melhorias contínuas sem esperar ordens ou problemas surgirem."
             Valor4="Autonomia: A capacidade de agir de forma independente e tomar decisões próprias. Embora a autonomia seja importante para o crescimento individual, ela também precisa ser equilibrada com o respeito às normas do grupo."
