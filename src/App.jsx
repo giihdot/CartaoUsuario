@@ -24,7 +24,9 @@ function App() {
               <Perfil
                 user="Giovanna Ferreira"
                 img={Imagem_1}
-                texto="Hobby: Dançar, Teatro, Leitura..."
+                texto="giovanna ☾
+                       Ele tem um plano, e você um propósito.
+                       Romanos 8:28 🇻🇦"
               />
               <Seguir/>
             </div> 
@@ -35,7 +37,11 @@ function App() {
               <Perfil
                 user="Maria Clara Duarte"
                 img={Imagem_2}
-                texto="Hobby: Cantar, Leitura..."
+                texto="Clara Duarte
+                       Vinhedo | SP
+                       Cristã ❤‍🔥
+                       God is good all the time ✝️🤍
+                       💍."
               />
               <Seguir/>
             </div>
@@ -46,9 +52,15 @@ function App() {
               <Perfil
                 user="Julia Piazzoli"
                 img={Imagem_3}
+<<<<<<< HEAD
                 texto="Hobby: Academia, Pilates..."
               />
               <Seguir/>
+=======
+                texto="Julia Piazzoli
+                       2007 | Valinhos, SP
+                       👑 • 🍸 • 🪐"/>
+>>>>>>> 848efdacb571b13becfbccd8451181f8bdf1b904
             </div>
           </div>
 
@@ -57,7 +69,10 @@ function App() {
               <Perfil
                 user="Kamilly Barra"
                 img={Imagem_4}
-                texto="Hobby: Cantar, Caminhar..."
+                texto="kamilly barra
+                       Romanos 8:26
+                       Louveira | SP
+                       "
               />
               <Seguir/>
             </div>
@@ -66,7 +81,7 @@ function App() {
 
         <div className="Valores">
           <Valores
-            Valor1= "Compromisso: Dedicação e responsabilidade de cada integrante para o sucesso do grupo."
+            Valor1="Compromisso: Dedicação e responsabilidade de cada integrante para o sucesso do grupo."
             Valor2="Responsabilidade: Cada membro assume as consequências de suas ações e contribui ativamente para o grupo."
             Valor3="Proatividade: Agir com iniciativa e buscar melhorias contínuas sem esperar ordens ou problemas surgirem."
             Valor4="Autonomia: A capacidade de agir de forma independente e tomar decisões próprias. Embora a autonomia seja importante para o crescimento individual, ela também precisa ser equilibrada com o respeito às normas do grupo."
