@@ -6,7 +6,7 @@ function Seguir() {
     const [seguindo, setSeguindo] = useState(false); // o estado que se encontra "Seguindo"
 
     // Função para lidar com o clique no botão de curtida
-    function CliqueSeguir() {
+    function CliqueCurtir() {
         setCurtido(!curtido); // Marca o botão como curtido
     }
 
@@ -19,7 +19,7 @@ function Seguir() {
         <div className="cartao">
             <div className="curtir">
                 <button 
-                    onClick={CliqueSeguir} 
+                    onClick={CliqueCurtir} 
                     className={curtido ? "curtido" : "nao-curtido"}
                 >
                     {curtido ? "Liked" : "Like"}
