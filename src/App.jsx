@@ -15,8 +15,8 @@ import Seguir from "./Components/Botao";
 function App() {
   return (
     <>
-      <Titulo titulo="DESAFIO - PROPS REACT" imagem={Logo} />
-
+      <Titulo titulo="#AS GATITAS" imagem={Logo} /> 
+      {/* DESAFIO - PROPS REACT */}
       <div className="Junt1">
         <div className="Lateral">
           <div className="Agrupar">
@@ -24,9 +24,8 @@ function App() {
               <Perfil
                 user="Giovanna Ferreira"
                 img={Imagem_1}
-                texto="giovanna ☾
-                       Ele tem um plano, e você um propósito.
-                       Romanos 8:28 🇻🇦"
+                texto1= "Ele tem um plano, e você um propósito."
+                texto2= "Romanos 8:28 🇻🇦"
               />
               <Seguir />
             </div>
@@ -37,11 +36,8 @@ function App() {
               <Perfil
                 user="Maria Clara Duarte"
                 img={Imagem_2}
-                texto="Clara Duarte
-                       Vinhedo | SP
-                       Cristã ❤‍🔥
-                       God is good all the time ✝️🤍
-                       💍."
+                texto1="Vinhedo | SP"
+                texto2="Cristã ❤‍🔥 || 💍."
               />
               <Seguir />
             </div>
@@ -52,9 +48,8 @@ function App() {
               <Perfil
                 user="Julia Piazzoli"
                 img={Imagem_3}
-                texto="Julia Piazzoli
-                       2007 | Valinhos, SP
-                       👑 • 🍸 • 🪐"
+                texto1="2007 | Valinhos, SP"
+                texto2="👑 • 🍸 • 🪐"
               />
               <Seguir />
             </div>
@@ -65,10 +60,8 @@ function App() {
               <Perfil
                 user="Kamilly Barra"
                 img={Imagem_4}
-                texto="kamilly barra
-                       Romanos 8:26
-                       Louveira | SP
-                       "
+                texto1="Romanos 8:26"
+                texto2="Louveira | SP"
               />
               <Seguir />
             </div>
