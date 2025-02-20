@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./Botao.css";
 
 function Seguir() {
-    const [curtido, setCurtido] = useState(false);
-    const [seguindo, setSeguindo] = useState(false); 
+    const [curtido, setCurtido] = useState(false); // o estado que se encontra "Curtindo"
+    const [seguindo, setSeguindo] = useState(false); // o estado que se encontra "Seguindo"
 
     // Função para lidar com o clique no botão de curtida
     function CliqueSeguir() {
